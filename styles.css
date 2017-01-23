@@ -1,4 +1,83 @@
+
+/*media needs more work*/
+@media only screen and (orientation: landscape) {
+
 body {
 
 	background-color: lightblue
+}}
+
+div {
+	margin-right: 1700px;
+	padding: 10px 100px 5px 30px;
+	border: 4px double green;
+	background-color: lightgreen;
+	border-width: 10px 10px 10px 10px;
+}
+
+footer {
+	position: fixed;
+	width:100%;	
+	bottom: 0px;
+	text-align: center;
+	font-size: 7;
+	color: beige;
+}
+
+p {
+
+	padding-left: 3px;
+}
+
+nav {
+	position: fixed;
+   left:30px;
+   bottom:30px;
+   height:30px;
+   width:100%;	
+}
+
+a:link {
+    color: blue;
+}
+
+
+a:visited {
+    color: #ff9900;
+}
+
+#homeimage img {
+
+	padding:1px;
+  	border:1px solid #021a40;
+}
+
+.table {
+	position: relative;
+	background-image: url(http://www.play-costa-rica.com/images/page-pics/map-of-volcanoes.jpg);
+	background-size: 1200px 1200px;
+	background-repeat: no-repeat;
+}
+
+table {
+
+	position: absolute;
+	top: 480px;
+	left: 30px;
+	background-color: beige;
+	color: red;
+}
+
+ h2 {
+	position: absolute;
+	left: 100px;
+	color: red;
+	font-size: 3em;
+}
+
+cite {
+	position: absolute;
+	top: 820px;
+	left: 30px;
+	font: Verdana;
 }
