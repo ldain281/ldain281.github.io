@@ -1,7 +1,11 @@
+
+/*media needs more work*/
+@media only screen and (orientation: landscape) {
+
 body {
 
 	background-color: lightblue
-}
+}}
 
 div {
 	margin-right: 1700px;
@@ -17,6 +21,12 @@ footer {
 	bottom: 0px;
 	text-align: center;
 	font-size: 7;
+	color: beige;
+}
+
+p {
+
+	padding-left: 3px;
 }
 
 nav {
@@ -25,6 +35,21 @@ nav {
    bottom:30px;
    height:30px;
    width:100%;	
+}
+
+a:link {
+    color: blue;
+}
+
+
+a:visited {
+    color: #ff9900;
+}
+
+#homeimage img {
+
+	padding:1px;
+  	border:1px solid #021a40;
 }
 
 .table {
@@ -43,7 +68,7 @@ table {
 	color: red;
 }
 
-h2 {
+ h2 {
 	position: absolute;
 	left: 100px;
 	color: red;
@@ -55,5 +80,4 @@ cite {
 	top: 820px;
 	left: 30px;
 	font: Verdana;
-
 }
